@@ -1,0 +1,50 @@
+# =========================
+# Data outputs (ignore CSVs only)
+# =========================
+
+data/csvs/
+data/csvs/*.csv
+
+# Optional: ignore any accidental CSVs elsewhere
+*.csv
+
+# =========================
+# Keep parquet files tracked
+# =========================
+!data/parquets/
+!data/parquets/*.parquet
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter / temp
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# OS / editor junk
+# =========================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs / misc
+# =========================
+
+*.log
